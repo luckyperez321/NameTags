@@ -11,11 +11,11 @@ The JSX returned should consist of:
 /* export our functional component definition to be 
 imported then rendered within another module */
 import React from "react";
-const NameTag = () => (
+const NameTag = (props) => (
 <div className = "name-tag">
 <h3 className = "title"> Hello</h3>
 <p className = "subtitle"> my name is</p>
-<h2 className = "name">Lucky</h2>
+<h2 className = "name">{props.name}</h2>
 </div>
 )
 export default NameTag;
