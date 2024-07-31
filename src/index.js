@@ -14,7 +14,6 @@ const App = () => {
   <div className="App">
     <h1>Name Tag Generator</h1>
     {NameTagElements}
-   <NameTag name = {"Lucky"}/>
   </div>
   );
 };
