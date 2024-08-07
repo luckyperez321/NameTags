@@ -3,7 +3,7 @@ import NameTagList from "./NameTagList.js";
 
 class App extends Component {
   state = {
-    names: ["Erin", "Ann", "Nichole", "Sharon", "Maryn"]
+    names: ["Dakota", "Kloe", "Waffles", "Lucky", "Mocha"]
   };
   removeName = (clickedIndex) => {
     // to learn how the .filter method works, check out https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
